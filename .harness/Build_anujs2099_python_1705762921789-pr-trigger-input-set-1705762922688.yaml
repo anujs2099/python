@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_anujs2099_python_1705762921789-pr-trigger-input-set
+  identifier: Build_anujs2099_python_1705762921789prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: chapter1ci
+  pipeline:
+    identifier: Build_anujs2099_python_1705762921789
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
