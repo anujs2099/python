@@ -26,9 +26,9 @@ pipeline:
                     command: |-
                       echo "Welcome to Harness CI"
                       echo ""
-                      python3 -m pip3 install --upgrade pip
+                      python3 -m pip install --upgrade pip
                       echo ""
-                      pip3 install  pytest
+                      pip install  pytest
                       echo ""
                       if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           platform:
