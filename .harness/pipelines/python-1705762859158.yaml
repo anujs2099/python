@@ -26,13 +26,6 @@ pipeline:
                     command: |-
                       echo "Welcome to Harness CI"
                       echo ""
-                      echo "Installing pip & python3"
-                      microdnf update 
-                      echo ""   
-                      microdnf -y install python3-pip
-                      echo ""  
-                      pip -v
-                      echo ""
                       python -m pip install --upgrade pip
                       echo ""
                       pip install  pytest
